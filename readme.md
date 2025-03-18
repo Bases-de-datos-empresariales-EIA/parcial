@@ -77,7 +77,7 @@ schema: parcial
 
 6. Ejecuta el siguiente query, y basándote en el código y en el resultado, explica:
 
-   ```sql
+```sql
 select 
  extract(year from r.fecha) as year, 
  extract(month from r.fecha) as month,
@@ -86,6 +86,7 @@ from "Reporte" r
 where extract(year from r.fecha) = 2024
 group by extract(year from r.fecha), extract(month from r.fecha)
 order by extract(year from r.fecha), extract(month from r.fecha)
-   ```
+```
+
    - Con tus propias palabras, cómo funciona el query? (5%)
    - Escribe dos párrafos con tus conclusiones sobre los datos que se obtienen como resultado al ejecutar dicho query. (5%)
