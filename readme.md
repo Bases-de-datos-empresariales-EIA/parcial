@@ -23,16 +23,7 @@ Una academia de música llamada "Notas y Acordes" ofrece clases de diversos inst
 
 ---
 
-### 2. Construcción del Script de Creación de Tablas en SQL (10%)
-
-**Instrucción:**  
-Construye el script de creación de tablas en SQL basado en el siguiente diagrama ER.
-
-![Diagrama ER](./media/punto-2.png)
-
----
-
-### 3. Consultas SQL Basadas en el Diagrama E-R (50%)
+### 2. Consultas SQL Basadas en el Diagrama E-R (50%)
 
 **Instrucción:**  
 Considera el siguiente diagrama ER.
@@ -83,3 +74,18 @@ schema: parcial
 
 5. Construye una consulta SQL que calcule el reporte de horas más grande generado por cada usuario.
    - **Pregunta:** ¿Cuáles son los dos usuarios con los reportes individuales más grandes y cuántas horas reportó cada uno? (10%)
+
+6. Ejecuta el siguiente query, y basándote en el código y en el resultado, explica:
+
+   ```sql
+select 
+ extract(year from r.fecha) as year, 
+ extract(month from r.fecha) as month,
+ sum(r.horas)
+from "Reporte" r
+where extract(year from r.fecha) = 2024
+group by extract(year from r.fecha), extract(month from r.fecha)
+order by extract(year from r.fecha), extract(month from r.fecha)
+   ```
+   - Con tus propias palabras, cómo funciona el query? (5%)
+   - Escribe dos párrafos con tus conclusiones sobre los datos que se obtienen como resultado al ejecutar dicho query. (5%)
