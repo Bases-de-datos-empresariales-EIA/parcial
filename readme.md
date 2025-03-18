@@ -23,7 +23,7 @@ Una academia de música llamada "Notas y Acordes" ofrece clases de diversos inst
 
 ---
 
-### 2. Consultas SQL Basadas en el Diagrama E-R (50%)
+### 2. Consultas SQL Basadas en el Diagrama E-R (60%)
 
 **Instrucción:**  
 Considera el siguiente diagrama ER.
@@ -38,10 +38,12 @@ Este diagrama E-R está diseñado para gestionar la información operacional de 
 - **Reportes:** Los reportes son registros detallados de las actividades realizadas por los usuarios, donde se documentan las horas dedicadas y las fechas específicas de trabajo. Estos reportes están vinculados tanto a los contratos bajo los cuales se realizan las actividades como a los usuarios que las ejecutan.
 
 **Preguntas y calificación:**
-Cada pregunta tiene un valor de 10%, dividido de la siguiente manera:
+Cada pregunta de la 1 a la 5 tiene un valor de 10%, dividido de la siguiente manera:
 
 - Respuesta correcta: 5%
 - Correcta formulación del query en SQL: 5%
+
+La pregunta 6 está dividida en dos, cada una con un valor de 5%.
 
 **Credenciales para conectarse a la base de datos:**
 
