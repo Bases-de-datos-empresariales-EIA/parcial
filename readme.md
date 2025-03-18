@@ -45,17 +45,6 @@ Cada pregunta de la 1 a la 5 tiene un valor de 10%, dividido de la siguiente man
 
 La pregunta 6 está dividida en dos, cada una con un valor de 5%.
 
-**Credenciales para conectarse a la base de datos:**
-
-```
-host: aws-0-us-east-1.pooler.supabase.com
-port: 6543
-database: postgres
-username: parcial.pqihitksbcrxfddfmzfg
-password: ***********
-schema: parcial
-```
-
 **Preguntas:**
 
 1. Escribe una consulta SQL que calcule el total de ingresos generados por cada cliente a través de sus contratos. Debes sumar el valor de las ventas de todos los contratos asociados a cada cliente y mostrar el nombre del cliente junto con los ingresos totales.
